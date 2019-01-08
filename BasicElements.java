@@ -5,7 +5,7 @@ import java.swing.JFrame;
   	public static void main(String args[]){
   		JFrame myFrame = new JFrame();
 
-  		myFrame.setDefaultCloseOperation(myFrame);
+  		myFrame.setDefaultCloseOperation();
   		myFrame.setVisible(true);
   		myFrame.setSize(900,600);
 
